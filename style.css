@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap')
+:root{
+    --cor-de-fundo: #556B2F;
+    --amarelo: #FFFF00;
+    --branco: #F0F8FF;
+    --botao-ativo: #8FBC8F;
+    --botao-inativo: rgba(143,188,143, 0.5);
+    --texto-fundo: rgba(107,142,35, 0.3);
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Jacquarda Bastarda', sans-serif;
+}
+
+.conteudo-principal{
+    direction: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span{
+    color: var(--amarelo);
+}
+
+.botao{
+    font-family: 'Jacquarda Bastarda', sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+}
+
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+
+}
+.botoes{
+    display: block;
+}
+
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--botao-ativo);
+}
+
+@media screen and (min-widht: 768px) {
+    .botao{
+        display: flex;
+
+    }
+    .botao:first-child{
+        border-radius: 0 40px 0 0;
+    }
+}
