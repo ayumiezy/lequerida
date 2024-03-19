@@ -11,7 +11,7 @@
 
 body{
     background-color:  #1E1E1E;
-    color: #ffffff;
+    color: #ff008c;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .conteudo-principal{
@@ -38,7 +38,7 @@ body{
 .botao{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(58, 55, 94, 0.5);
-    color:  #ffffff;
+    color:  #ff008c;
     display: flex;
     justify-content: center;
     padding: 1em;
