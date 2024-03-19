@@ -39,13 +39,13 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgba(58, 55, 94, 0.5);
     color:  #ff008c;
-    display: flex;
+    display: table-column-group;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid #00ffaa;
+    border-bottom: 4px solid #00ffea;
     border-left: 2px solid #00ffaa;
     border-right: 2px solid #00ffaa;
     border-top: none;
