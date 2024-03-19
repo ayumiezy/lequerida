@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap')
 :root{
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
-    --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --verde: #58d4f3;
+    --branco: #5b8ff0;
+    --botao-ativo: #82ffc5;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 
 body{
-    background-color: var(--cor-de-fundo);
-    color: var(--branco);
-    font-family: 'Jacquarda Bastarda', sans-serif;
-}
+    background-color:  #1E1E1E;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .conteudo-principal{
     direction: flex;
@@ -33,22 +32,22 @@ body{
 }
 
 .titulo-principal span {
-    color: var(--verde);
+    color: #58d4f3;
 }
 
-.botao {
-    font-family: "Crakra Petch", sans-serif;
-    background-color: var(--botao-inativo);
-    color: var(--branco);
+.botao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(58, 55, 94, 0.5);
+    color:  #ffffff;
     display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--botao-ativo);
-    border-left: 2px solid var(--botao-ativo);
-    border-right: 2px solid var(--botao-ativo);
+    border-bottom: 4px solid #82ffc5;
+    border-left: 2px solid #82ffc5;
+    border-right: 2px solid #82ffc5;
     border-top: none;
 }
 
@@ -62,8 +61,8 @@ body{
 }
 
 .ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--botao-ativo);
+    background-color: #82ffc5;
+    border-bottom: 4px solid #82ffc5;
 }
 
 @media screen and (min-widht: 768px) {
@@ -75,3 +74,4 @@ body{
         border-radius: 0 40px 0 0;
     }
 }
+
