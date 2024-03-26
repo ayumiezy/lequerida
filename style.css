@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
-:root{
-    --cor-de-fundo: #1E1E1E;
-    --verde: #58d4f3;
-    --branco: #5b8ff0;
-    --botao-ativo: #00ffaa;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+@import url('https://fonts.googleapis.com/css2?family-Chakra+Petch:w ght@400:700&display=swap'); 
+:root {
+    :root{
+        --cor-de-fundo: #1E1E1E;
+        --verde: #6FFF57;
+        --branco: #FFFFFF;
+        --botao-ativo: #3A375E;
+        --botao-inativo: rgba(58, 55, 94, 0.5);
+        --texto-fundo: rgba(58, 55, 94, 0.3);
+    }
+    
 }
 
 
 body{
-    background-color:  #0a0038;
-    color: #ff008c;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    background-color: var(--cor-de-fundo);
+    color:var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
+}
 
 .conteudo-principal{
     direction: flex;
@@ -31,22 +35,22 @@ body{
 }
 
 .titulo-principal span {
-    color: #58d4f3;
+    color:var(--verde);
 }
 
 .botao{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgba(58, 55, 94, 0.5);
-    color:  #ff008c;
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
     display: center;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid #01146888;
-    border-left: 2px solid #01146888;
-    border-right: 2px solid #01146888;
+    border-bottom: 4px solid  var(--botao-ativo);
+    border-left: 2px solid   var(--botao-ativo);
+    border-right: 2px solid   var(--botao-ativo);
     border-top: none;
 }
 
@@ -60,16 +64,16 @@ body{
 }
 
 .ativo{
-    background-color: #01199e88;
-    border-bottom: 4px solid #00ffaa;
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
 }
 
 @media screen and (min-widht: 768px) {
-    .botao{
+    .botoes{
         display: flex;
 
     }
-    .botao:first-child{
+    .botao:last-child{
         border-radius: 0 40px 0 0;
     }
 }
