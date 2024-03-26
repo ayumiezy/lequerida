@@ -1,0 +1,6 @@
+        <div class="conteudo ativo">
+
+            
+            .abas-conteudo.ativo{
+                display: block;
+            }
